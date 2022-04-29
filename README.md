@@ -2,14 +2,10 @@
 
 A test project to evaluate a javascript programmer position at Avidity Brasil.
 
-&nbsp;
-
 ## Minimum requirements
 
 -   `NodeJS` version `14` or higher.
 -   You must have `public and private API keys` provided by [https://developer.marvel.com](https://developer.marvel.com).
-
-&nbsp;
 
 ## How to run the project
 
@@ -22,5 +18,3 @@ npm install
 npm run build
 npm start
 ```
-
-&nbsp;
