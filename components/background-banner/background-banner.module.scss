@@ -1,0 +1,17 @@
+.banner {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 0.1;
+
+	position: fixed;
+	top: -4.3125rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+
+	@media (max-width: 425px) {
+		top: -6.875rem;
+	}
+}

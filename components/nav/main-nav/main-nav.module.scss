@@ -1,0 +1,32 @@
+.main-nav {
+	margin-left: 2rem;
+	margin-right: auto;
+	ul {
+		font-size: 0.9rem;
+		display: flex;
+		li {
+			margin: 0 0.5rem;
+			a {
+				padding: 0.25rem 0;
+				color: var(--c-light);
+				&:hover {
+					@extend %active;
+				}
+			}
+			&.active {
+				a {
+					@extend %active;
+				}
+			}
+		}
+	}
+
+	@media (max-width: 425px) {
+		margin-left: 0;
+	}
+}
+
+%active {
+	color: var(--c-highlighted);
+	border-bottom: 1px solid var(--c-red);
+}

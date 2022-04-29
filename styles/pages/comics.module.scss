@@ -1,0 +1,11 @@
+.comics {
+	ul {
+		margin-top: 1rem;
+	}
+
+	@media (max-width: 425px) {
+		a {
+			margin: 1rem auto;
+		}
+	}
+}
