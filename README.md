@@ -18,3 +18,5 @@ npm install
 npm run build
 npm start
 ```
+
+Preview: [https://marvel-the-comics-test.vercel.app/](https://marvel-the-comics-test.vercel.app/)
